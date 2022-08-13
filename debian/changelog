@@ -1,6 +1,5 @@
-c4core (0.1.9-1) UNRELEASED; urgency=low
+c4core (0.1.9-1) unstable; urgency=medium
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial release. Closes: #1017088
 
- -- Fukui Daichi <a.dog.will.talk@akane.waseda.jp>  Fri, 12 Aug 2022 13:44:37 +0000
+ -- Fukui Daichi <a.dog.will.talk@akane.waseda.jp>  Sat, 13 Aug 2022 13:40:16 +0000
