@@ -1,0 +1,18 @@
+Source: c4core
+Section: devel
+Priority: optional
+Maintainer: Fukui Daichi <a.dog.will.talk@akane.waseda.jp>
+Build-Depends: cmake, debhelper-compat (= 13)
+Standards-Version: 4.5.0
+Homepage: https://github.com/biojppm/c4core
+
+Package: c4core
+Architecture: amd64 arm64 armel armhf i386 ppc64el riscv64
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: library of low-level C++ utilities, written with low-latency projects in mind
+ c4core is a library of low-level C++ utilities, written with low-latency projects in mind.
+ .
+ Some of the utilities provided by c4core have already equivalent functionality in the C++ standard, but they are provided as the existing C++ equivalent may be insufficient (eg, std::string_view), inefficient (eg, std::string), heavy (eg streams), or plainly unusable on some platforms/projects, (eg exceptions).
+ .
+ Some other utilities have equivalent under consideration for C++ standardisation; and yet some other utilities have no equivalent under consideration. 
